@@ -1,0 +1,6 @@
+DECLARE amount : REAL
+DECLARE total : REAL
+OUTPUT "enter the amount"
+INPUT amount
+total =amount*0.85
+OUTPUT "the amount is", total

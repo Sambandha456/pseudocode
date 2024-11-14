@@ -1,0 +1,8 @@
+DECLARE Answer : STRING
+OUTPUT "What is the capatial city of japan"
+INPUT Answer
+IF Answer ="tokyo" OR Answer ="Tokyo" THEN
+    OUTPUT"you are correct"
+ELSE
+    OUTPUT" you are incorrect"    
+ENDIF

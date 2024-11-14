@@ -1,0 +1,6 @@
+DECLARE amountdollars : REAL
+DECLARE amounteuros : REAL
+OUTPUT "enter the amount in dollars"
+INPUT amountdollars
+amounteuros <- amountdollars * 0.85
+OUTPUT "the amount is",amounteuros
